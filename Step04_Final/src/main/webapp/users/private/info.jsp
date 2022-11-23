@@ -60,6 +60,19 @@
             <td><%=dto.getRegdate() %></td>
          </tr>
       </table>
+      <a href="updateform.jsp">개인정보 수정</a>
+      <a href="javascript:deleteConfirm()">탈퇴</a>
    </div>
+   <script>
+   	function deleteConfirm(){
+   		let isDelete=confirm("확인을 누르면 탈퇴 탈퇴 탈퇴 탈퇴 ㄱ?")
+   		if(isDelate){
+   			location.href="delete.jsp";
+   		}
+   	}
+   
+   </script>
+   
+   
 </body>
 </html>
